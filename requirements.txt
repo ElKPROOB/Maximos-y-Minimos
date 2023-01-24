@@ -1,0 +1,13 @@
+altgraph==0.17.3
+autopep8==2.0.1
+future==0.18.2
+mpmath==1.2.1
+numpy==1.24.0
+pefile==2022.5.30
+pycodestyle==2.10.0
+pyinstaller==5.7.0
+pyinstaller-hooks-contrib==2022.14
+pywin32-ctypes==0.2.0
+readchar==4.0.3
+sympy==1.11.1
+tomli==2.0.1

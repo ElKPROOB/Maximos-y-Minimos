@@ -1,0 +1,82 @@
+\documentclass[]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\begin{document}{\large Función: }$x^{2} + y^{2}$\\
+
+\noindent
+- Puntos singulares:\\
+
+\noindent
+\hspace{1cm}$\Rightarrow$ La función es diferenciable en su dominio\\
+
+\noindent
+- La función no tiene puntos frontera\\
+
+\noindent
+- Puntos estacionarios:\\
+
+\[
+\text{\textit{Vector Gradiente: }}
+\]
+\[
+\left(
+\begin{array}{ccc}
+2 x, &
+2 y
+\end{array}
+\right)
+\]\\
+
+\noindent
+\hspace{1cm}$\rightarrow$ Puntos en los que el vector gradiente es 0:\\
+
+\textbf{\hspace{1cm}$\bullet$ $(x: 0,\hspace{2mm}y: 0)$\\}
+
+\[
+\text{\textit{Matriz Hessiana: }}
+\]
+\[
+\left(
+\begin{array}{ccc}
+2 & 0\\
+0 & 2\\
+\end{array}
+\right)
+\]\\
+
+\[
+\text{\textit{Matriz Hessiana Evaluada en el punto $(x: 0,\hspace{2mm}y: 0)$: }}
+\]
+\[
+\left(
+\begin{array}{ccc}
+2 & 0\\
+0 & 2\\
+\end{array}
+\right)
+\]\\
+
+\[
+\Rightarrow\left(
+\begin{array}{ccc}
+2 - \lambda & 0\\
+0 & 2 - \lambda\\
+\end{array}
+\right)
+\]\\
+
+\[
+\Rightarrow \left(2 - \lambda\right)^{2} = 0
+\]\\
+
+\[
+\Rightarrow \text{Los posibles valores para $\lambda$ son: }\lambda=2
+\]\\
+
+\textbf{\hspace{1cm}$\therefore$ Se tiene un \underline{Mínimo Relativo} en el punto $(x: 0,\hspace{2mm}y: 0)$\\}
+
+\end{document}
